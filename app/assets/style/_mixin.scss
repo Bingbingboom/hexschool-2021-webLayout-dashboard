@@ -1,0 +1,13 @@
+// Source mixin
+@mixin make-container() {
+    width: 100%;
+    padding-right: 32px;
+    padding-left: 32px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  // Usage
+  .dashboard-container {
+    @include make-container();
+  }

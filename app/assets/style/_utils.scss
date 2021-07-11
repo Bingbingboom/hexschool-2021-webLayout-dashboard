@@ -1,0 +1,51 @@
+// 下拉選單箭頭
+.dropdown-toggle::after{
+    border: 0;
+    font-family: 'Material Icons';
+    content: "expand_more";
+    font-size: 24px;
+    line-height: 1;
+    vertical-align: bottom;
+    color: $success;
+}
+
+// hover
+.hover-success:hover{
+    color: $success;
+}
+
+// Code Block
+.code{
+    background-color: $gray-100;
+    border-radius: 2px;
+    color: $success;
+}
+
+// Btn
+.btn:focus{
+    box-shadow: none;
+}
+
+// Form
+input.form-control{
+    border: 1px solid $gray-900;
+    border-radius: 2px;
+    &:focus{
+        box-shadow: none;
+        border-color: $success;
+    }
+}
+.form-check-input{
+    border: 1px solid $gray-900;
+}
+.form-check-input[type="checkbox"]{
+    border-radius: 1px;
+}
+.form-control-plaintext{
+    background-color: $gray-100;
+}
+
+// hr
+.hr{
+    background-color: $gray-400;
+}
