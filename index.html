@@ -1,88 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Boostrap Index</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
-    <link rel="stylesheet" href="./assets/style/all.css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    ANSWER | Dashboard
+  </title>
+  <!-- 字型 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <!-- Material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="sidebar col-3 d-flex flex-column justify-content-between bg-light g-0">
+        <div>
+          <h1 class="p-9"><a href="index.html" class="logo">ANSWER</a></h1>
+          <ul class="menu p-0 list-unstyled">
+            <!-- Dashboard Btn -->
+            
+              <li class="py-1 mb-7 active">
+                <a href="index.html" class="ps-9 fw-bold d-flex align-items-center active">
+                  <span class="material-icons me-4">
+                    poll
+                  </span>
+                  Dashboard
+                </a>
+              </li>
+            
+            <!-- Question Btn -->
+            
+              <li class="py-1 mb-7">
+                <a href="question.html" class="ps-9 fw-bold d-flex align-items-center">
+                  <span class="material-icons me-4">
+                    question_answer
+                    </span>
+                  Question
+                </a>
+              </li>
+             
+            <!-- Assignment Btn -->
+            
+              <li class="py-1 mb-7">
+                <a href="assignment.html" class="ps-9 fw-bold d-flex align-items-center">
+                  <span class="material-icons me-4">
+                    assignment
+                  </span>
+                  Assignment
+                </a>
+              </li>
+            
+            <!-- Course Btn -->
+            
+              <li class="py-1 mb-7">
+                <a href="course.html" class="ps-9 fw-bold d-flex align-items-center">
+                  <span class="material-icons me-4">
+                    video_library
+                  </span>
+                  Course
+                </a>
+              </li>
+            
+            <!-- Admin Btn -->
+            
+              <li class="py-1 mb-7">
+                <a href="admin.html" class="ps-9 fw-bold d-flex align-items-center">
+                  <span class="material-icons me-4">
+                    people
+                  </span>
+                  Admin
+                </a>
+              </li>
+            
+            <!-- Settings Btn -->
+            
+              <li class="py-1">
+                <a href="settings.html" class="ps-9 fw-bold d-flex align-items-center">
+                  <span class="material-icons me-4">
+                    settings
+                  </span>
+                  Settings
+                </a>
+              </li>
+            
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+        </div>
+        <!-- 使用者 -->
+        <div class="account d-flex align-items-center pb-9 ps-9">
+            <div class="account-img me-3">
+              <img src="assets/images/andychen.jpeg" alt="">
+            </div>
+            <div class="account-info">
+              <h3 class="h6 mb-0 fw-bold">Andy Chen</h3>
+              <a href="mailto:" class="fs-7 link-secondary">andy0401@mail.com</a>
+            </div>
         </div>
       </div>
-    </nav>
-
-    
-<div class="container">
-  <div class="alert alert-primary" role="alert">
-    A simple primary alert—check it out!
-  </div>
-  <div class="alert alert-secondary" role="alert">
-    A simple secondary alert—check it out!
-  </div>
-  <div class="alert alert-success" role="alert">
-    A simple success alert—check it out!
-  </div>
-  <div class="alert alert-danger" role="alert">
-    A simple danger alert—check it out!
-  </div>
-  <div class="alert alert-warning" role="alert">
-    A simple warning alert—check it out!
-  </div>
-  <div class="alert alert-info" role="alert">
-    A simple info alert—check it out!
-  </div>
-  <div class="alert alert-light" role="alert">
-    A simple light alert—check it out!
-  </div>
-  <div class="alert alert-dark" role="alert">
-    A simple dark alert—check it out!
+      <main class="col-9 g-0">
+        
+<div class="p-9">
+  <div class="text-center">
+    <p class="h4">Dashboard</p>
   </div>
 </div>
 
+
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
   Launch demo modal
-</button>
+</button> -->
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -98,15 +137,15 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
+      </main>
+    </div>
+  </div>
 
-    <footer class="footer">
-      footer
-    </footer>
-
+    <script src="./assets/js/jquery-3.5.1.min.js"></script>
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
-  </body>
+</body>
 
 </html>
