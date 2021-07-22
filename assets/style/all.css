@@ -13496,12 +13496,6 @@ input.form-control:focus {
 
 .fileLink {
   width: 176px;
-  background: #f8f9fa;
-  border: 1px solid #ced4da;
-}
-
-.fileLink:hover {
-  background: #ced4da;
 }
 
 .list-style {
